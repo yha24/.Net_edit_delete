@@ -1,0 +1,53 @@
+﻿
+
+
+@model List<Model.Framework.tbl_products>
+    @{
+        ViewBag.Title = "Index";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+<div>
+    <a class="btn btn-success" href="/Products/Create">Thêm mới</a>
+</div>
+    <table border="1" style="width: 100%; border: 1px solid black;" id="datatablesSimple"
+           class="dataTable-table">
+
+        <thead>
+
+            <tr>
+
+                <th border="1">ID</th>
+
+                <th border="1">Name</th>
+
+                <th border="1">Price</th>
+
+                <th border="1">Detail</th>
+
+                <th border="1">Images</th>
+                <th>Chức năng</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ID</td>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>@item.Detail</td>
+                    <td ><img src="~/tainguyen/image/" style="width:200px; height:150px" /></td>
+                    <td>
+                        <a class="btn btn-primary" href="/Products/Edit/@item.ID">Sửa</a>
+                        <a class="btn btn-warning" href="/Products/Delete/@item.ID">Xóa</a>
+                      
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
