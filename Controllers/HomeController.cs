@@ -15,14 +15,14 @@ namespace dbAspNet.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Trang bạn mô tả.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Trang bạn liên hệ.";
 
             return View();
         }

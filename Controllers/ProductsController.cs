@@ -35,8 +35,7 @@ namespace dbAspNet.Controllers
 
         // POST: Products/Create
         [HttpPost]
-        public ActionResult Create(tbl_products
-collection)
+        public ActionResult Create(tbl_products collection)
         {
             try
             {
@@ -65,9 +64,6 @@ collection)
 
 
         // GET: Products/Edit/5
-
-
-
         public ActionResult Edit(int id)
         {
             return View();

@@ -182,9 +182,10 @@
     <Content Include="tainguyen\assets\demo\datatables-demo.js" />
     <Content Include="tainguyen\assets\img\error-404-monochrome.svg" />
     <Content Include="tainguyen\css\styles.css" />
-    <Content Include="tainguyen\image\ao1.jpg" />
-    <Content Include="tainguyen\image\ao2.jpg" />
-    <Content Include="tainguyen\image\ao4.jpg" />
+    <Content Include="tainguyen\image\giày 2.png" />
+    <Content Include="tainguyen\image\giày 3.jpg" />
+    <Content Include="tainguyen\image\giày nữ.jpg" />
+    <Content Include="tainguyen\image\giày thể thao.jpg" />
     <Content Include="tainguyen\js\datatables-simple-demo.js" />
     <Content Include="tainguyen\js\scripts.js" />
     <Content Include="Web.config" />

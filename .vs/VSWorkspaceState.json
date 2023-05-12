@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\tainguyen",
+    "\\tainguyen\\image",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Login",
+    "\\Views\\Products"
+  ],
+  "SelectedNode": "\\Views\\Products\\Create.cshtml",
+  "PreviewInSolutionExplorer": false
+}
